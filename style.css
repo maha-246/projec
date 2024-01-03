@@ -1,0 +1,23 @@
+Container styles
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Canvas styles */
+#canvas {
+    border: 0.5px solid black;
+    margin-top: 20px;
+}
+
+/* State styles (Increased size) */
+.state {
+    width: 100px;  /* Increased from 50px */
+    height: 100px; /* Increased from 50px */
+    border-radius: 50%;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 100px; /* Updated to match new height */
+    position: absolute;
+    border: 3px solid black; /* Made border thicker */
+}
